@@ -33,5 +33,31 @@ Use Cases
 Useful for small datasets where simplicity is more important than efficiency.
 Suitable for educational purposes to understand sorting concepts.
 
+Selection sort-
+Selection Sort is a simple and efficient sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the array and swapping it with the first unsorted element. This process continues until the entire array is sorted.
 
+Algorithm-
+
+Start with the first element as the minimum.
+Iterate through the rest of the array to find the smallest element.
+Swap the smallest element found with the first element.
+Move to the next element and repeat the process for the remaining unsorted part of the array.
+Continue until the entire array is sorted.
+
+Complexity Analysis-
+
+Best Case Time Complexity: O(n²) (even when the array is already sorted)
+Worst Case Time Complexity: O(n²)
+Average Case Time Complexity: O(n²)
+Space Complexity: O(1) (in-place sorting algorithm)
+
+Advantages-
+
+Simple and easy to implement.
+Works well for small datasets.
+
+Disadvantages-
+
+Inefficient for large datasets due to O(n²) time complexity.
+Not stable (does not maintain the relative order of equal elements).
 
