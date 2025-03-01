@@ -61,3 +61,22 @@ Disadvantages-
 Inefficient for large datasets due to O(n²) time complexity.
 Not stable (does not maintain the relative order of equal elements).
 
+Insertion Sort -
+Insertion Sort is a simple and efficient sorting algorithm that works similarly to sorting playing cards in your hands. It builds the sorted array one element at a time by inserting each element into its correct position.
+
+Algorithm:
+Start with the second element (index 1) and compare it with the previous elements.
+Shift the elements that are greater than the current element to the right.
+Insert the current element at its correct position.
+Repeat for all elements in the array.
+
+Time Complexity:
+Best Case (Already Sorted): 
+𝑂(𝑛^2)
+Average Case: 
+𝑂(𝑛^2)
+Worst Case (Reverse Sorted): 
+𝑂(n^2)
+Space Complexity: 
+𝑂(1)
+O(1) (In-place sorting)
