@@ -34,6 +34,7 @@ Useful for small datasets where simplicity is more important than efficiency.
 Suitable for educational purposes to understand sorting concepts.
 
 Selection sort-
+
 Selection Sort is a simple and efficient sorting algorithm that works by repeatedly selecting the smallest (or largest) element from the unsorted portion of the array and swapping it with the first unsorted element. This process continues until the entire array is sorted.
 
 Algorithm-
@@ -62,6 +63,7 @@ Inefficient for large datasets due to O(n²) time complexity.
 Not stable (does not maintain the relative order of equal elements).
 
 Insertion Sort -
+
 Insertion Sort is a simple and efficient sorting algorithm that works similarly to sorting playing cards in your hands. It builds the sorted array one element at a time by inserting each element into its correct position.
 
 Algorithm:
@@ -80,3 +82,30 @@ Worst Case (Reverse Sorted):
 Space Complexity: 
 𝑂(1)
 O(1) (In-place sorting)
+
+Quick Sort-
+
+QuickSort is a divide-and-conquer sorting algorithm that works by selecting a pivot element and partitioning the array into two subarrays:
+Elements less than the pivot
+Elements greater than the pivot
+These subarrays are then recursively sorted.
+
+How it works-
+
+Pick a pivot element (commonly first, last, or middle element).
+Partition the array such that elements smaller than the pivot move to its left, and elements greater move to its right.
+Recursively apply QuickSort on the left and right subarrays.
+The base case is when the subarray has one or zero elements.
+
+Time Complexity
+
+Best/Average Case: 
+𝑂(𝑛log𝑛)
+O(nlogn) (when pivot divides array evenly)
+
+Worst Case: 
+𝑂(𝑛2)O(n2) (when pivot is always smallest or largest element)
+
+Space Complexity
+𝑂(log⁡𝑛)O(logn) (for recursive calls in best case)
+𝑂(𝑛)O(n) (in worst case, due to recursion depth)
