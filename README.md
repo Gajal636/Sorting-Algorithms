@@ -109,3 +109,27 @@ Worst Case:
 Space Complexity
 𝑂(log⁡𝑛)O(logn) (for recursive calls in best case)
 𝑂(𝑛)O(n) (in worst case, due to recursion depth)
+
+
+Merge Sort-
+Merge Sort is a divide and conquer sorting algorithm that works by recursively splitting an array into two halves, sorting each half, and then merging them back together in sorted order.
+
+Algorithm Steps:
+Divide: Split the array into two halves until each sub-array has only one element.
+
+Conquer: Recursively sort each half.
+
+Merge: Combine the sorted halves back into a single sorted array.
+
+Time Complexity:
+Best Case: 
+O(𝑛log⁡𝑛)O(nlogn)
+
+Average Case: 
+𝑂(𝑛log𝑛)O(nlogn)
+
+Worst Case: 
+𝑂(𝑛log⁡𝑛)O(nlogn)
+
+Space Complexity: 
+𝑂(𝑛)O(n) (extra space required for merging)
